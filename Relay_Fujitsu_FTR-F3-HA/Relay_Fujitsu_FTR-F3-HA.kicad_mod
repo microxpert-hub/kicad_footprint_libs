@@ -1,0 +1,343 @@
+(footprint "Relay_Fujitsu_FTR-F3-HA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Relay, Fujitsu, FTR-F3, SPST Form A")
+	(tags "Relay or Contactor")
+	(property "Reference" "REF**"
+		(at -2.59 -7 0)
+		(layer "F.SilkS")
+		(uuid "86a4514e-7dda-4887-adc8-d9724e72f2e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Relay_Fujitsu_FTR-F3-HA"
+		(at -2.59 2.15799 0)
+		(layer "F.Fab")
+		(uuid "b7ee2c0a-03f0-4739-aa7f-2d853fbfd401")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ecdf3d0-12b1-40ba-b2f9-3a4e13939d02")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc8f21f8-a470-4560-842e-c8213a3dc332")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -12.965 -6.075)
+		(end -12.965 1.175)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f47c398d-a85c-443e-b031-b6041797c5d1")
+	)
+	(fp_line
+		(start -12.965 1.175)
+		(end 7.585 1.175)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6cec8ecc-c232-4b65-925e-4113526709d3")
+	)
+	(fp_line
+		(start 7.585 -6.075)
+		(end -12.965 -6.075)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad2be8b8-dfe1-402f-8733-1b11354f5025")
+	)
+	(fp_line
+		(start 7.585 -0.825)
+		(end 7.585 -6.075)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60cfb3cc-fa4c-47ae-9632-bc666542d065")
+	)
+	(fp_line
+		(start 7.585 1.175)
+		(end 7.585 0.82)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "52648ba4-9371-433e-afdb-87c6c696774d")
+	)
+	(fp_line
+		(start -11.75 -3.635)
+		(end -11.75 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "2297a29d-6e22-4d0c-973c-fe2a0056ab14")
+	)
+	(fp_line
+		(start -11.75 -3)
+		(end -11.09 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "9ec2ef2b-0cd5-453f-a69f-8decd6046a0b")
+	)
+	(fp_line
+		(start -11.09 -3.508)
+		(end -11.09 -2.492)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d3644b62-5236-44fc-9314-118d35903ee2")
+	)
+	(fp_line
+		(start -11.09 -2.492)
+		(end -9.185 -2.492)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "4488adde-3289-4f6f-955f-c5a3ff92b401")
+	)
+	(fp_line
+		(start -9.566 -3.508)
+		(end -10.201 -2.492)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5ce104cb-f921-4b84-8165-53bd595679e5")
+	)
+	(fp_line
+		(start -9.185 -3.508)
+		(end -11.09 -3.508)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a16b27c8-c6a8-4390-b7f0-da434c27d62e")
+	)
+	(fp_line
+		(start -9.185 -3.508)
+		(end -9.185 -2.492)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "10054f3f-921b-45f4-b963-80e9113e4305")
+	)
+	(fp_line
+		(start -8.55 -3.635)
+		(end -8.55 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5ee20997-0df4-4e9e-b522-483ed5806388")
+	)
+	(fp_line
+		(start -8.55 -3)
+		(end -9.185 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a5442e97-bc96-4ae7-aa23-5992e93dc70d")
+	)
+	(fp_line
+		(start 1.15775 0)
+		(end 2.77675 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "0a1dd7a7-4636-40a4-97db-728d021cfd54")
+	)
+	(fp_line
+		(start 2.77675 0)
+		(end 3.79275 -1.016)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "a8a861b0-4390-46b8-99fd-3e9b83f1cda3")
+	)
+	(fp_line
+		(start 5.85 0)
+		(end 4.35775 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "468c3802-6786-482e-8340-4e754a645ae6")
+	)
+	(fp_circle
+		(center 4.10375 0)
+		(end 4.10375 -0.254)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "c858ff0c-332b-4c0b-a2d9-42dc8864cf0e")
+	)
+	(fp_rect
+		(start -13.09 -6.2)
+		(end 7.91 1.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fe39afbe-4252-4ef1-a21d-dd54a4ad9b7a")
+	)
+	(fp_line
+		(start -12.84 -5.95)
+		(end -12.84 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03a3e21d-ce26-4142-99b9-4f74dcf085c5")
+	)
+	(fp_line
+		(start -12.84 1.05)
+		(end 7.46 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea3bb160-c3d4-436d-b859-f500c7bb1f19")
+	)
+	(fp_line
+		(start 7.46 -5.95)
+		(end -12.84 -5.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c63c058-647d-4a81-b939-c87b2045b51e")
+	)
+	(fp_line
+		(start 7.46 1.05)
+		(end 7.46 -5.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad19269b-ecf1-462e-8153-da8bbf4467ba")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.508 -2.45 0)
+		(layer "F.Fab")
+		(uuid "eac21488-8b6b-4e28-9533-7e51b02e34c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1515151515)
+		(uuid "6f372a3b-769b-4876-8ebd-437c5d47672d")
+	)
+	(pad "2" thru_hole circle
+		(at 7 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "65d76872-0658-4e43-b525-d252b451f26a")
+	)
+	(pad "3" thru_hole circle
+		(at -8.8 -4.7)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b273253b-b5f4-48fb-b574-36b89cab3dd7")
+	)
+	(pad "4" thru_hole circle
+		(at -11.5 -4.7)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "12297ca0-7d3a-4ac6-b2e8-6566cb38c387")
+	)
+	(embedded_fonts no)
+	(model "FTR-F3AA005E-HA.stp"
+		(offset
+			(xyz -12.65999966 2.450000011 -0.5400000133)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
